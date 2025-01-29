@@ -10,12 +10,9 @@ const NavbarForAbout = () => {
   return (
     <nav className="bg-white text-gray-900 fixed w-full top-0 left-0 z-50 shadow-md">
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-        {/* Logo */}
         <Link href="/" className="text-2xl font-bold flex items-center gap-2">
           <FaInfoCircle size={24} /> About Us
         </Link>
-
-        {/* Desktop Navigation */}
         <ul className="hidden md:flex space-x-6">
           <li>
             <Link href="/" className="hover:text-blue-400 transition">
@@ -39,7 +36,6 @@ const NavbarForAbout = () => {
           </li>
         </ul>
 
-        {/* Mobile Menu Button */}
         <button className="md:hidden" onClick={() => setIsOpen(!isOpen)}>
           {isOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
         </button>
