@@ -85,7 +85,7 @@ const Services = () => {
           </p>
           <a href="/contact">
             <button className="mt-8 px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow-lg hover:bg-blue-500 transition">
-              Get in Touch
+              Get In Touch
             </button>
           </a>
         </div>
